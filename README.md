@@ -11,7 +11,7 @@ Driver for LS7366R Quadrature Encoder Counter.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/ls7366r^1.0.0
+idf.py add-dependency esp-idf-lib/ls7366r^1.0.0
 ```
 
 ## Support
