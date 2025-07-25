@@ -1,5 +1,9 @@
 # esp-idf-lib/ls7366r
 
+[![Build examples](https://github.com/esp-idf-lib/ls7366r/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/ls7366r/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/ls7366r/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/ls7366r/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/ls7366r/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/ls7366r/actions/workflows//validate-component.yml)
+
 Driver for LS7366R Quadrature Encoder Counter.
 
 * [Documentation](https://esp-idf-lib.github.io/ls7366r/)
@@ -11,7 +15,7 @@ Driver for LS7366R Quadrature Encoder Counter.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/ls7366r^1.0.0
+idf.py add-dependency esp-idf-lib/ls7366r
 ```
 
 ## Support
