@@ -1,5 +1,5 @@
 ---
-version: 1.0.3
+version: 1.0.4
 description: Driver for LS7366R Quadrature Encoder Counter
 license: MIT
 targets:
