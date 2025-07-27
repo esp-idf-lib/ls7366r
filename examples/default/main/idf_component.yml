@@ -1,7 +1,7 @@
----
 version: 1.0.0
 description: default
 dependencies:
   esp-idf-lib/ls7366r:
-    version: "*"
-    override_path: "../../../"
+    override_path: ../../../
+  esp-idf-lib/esp_idf_lib_helpers:
+    version: '*'
