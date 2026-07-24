@@ -34,6 +34,7 @@
  */
 #include "ls7366r.h"
 #include <string.h>
+#include <freertos/FreeRTOS.h>
 
 // Registers
 #define REG_MDR0 0x08
