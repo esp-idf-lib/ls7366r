@@ -18,6 +18,7 @@ menu "Example configuration"
         default 4 if IDF_TARGET_ESP32C2 || IDF_TARGET_ESP32C3 || IDF_TARGET_ESP32C5 || IDF_TARGET_ESP32C6 || IDF_TARGET_ESP32C61
         default 4 if IDF_TARGET_ESP32H2
         default 4 if IDF_TARGET_ESP32P4
+        default 19
         help
             GPIO number of MISO
 
@@ -28,6 +29,7 @@ menu "Example configuration"
         default 5 if IDF_TARGET_ESP32C2 || IDF_TARGET_ESP32C3 || IDF_TARGET_ESP32C5 || IDF_TARGET_ESP32C6 || IDF_TARGET_ESP32C61
         default 5 if IDF_TARGET_ESP32H2
         default 5 if IDF_TARGET_ESP32P4
+        default 23
         help
             GPIO number of MOSI
 
@@ -38,6 +40,7 @@ menu "Example configuration"
         default 6 if IDF_TARGET_ESP32C2 || IDF_TARGET_ESP32C3 || IDF_TARGET_ESP32C5 || IDF_TARGET_ESP32C6 || IDF_TARGET_ESP32C61
         default 6 if IDF_TARGET_ESP32H2
         default 6 if IDF_TARGET_ESP32P4
+        default 18
         help
             GPIO number of CLK
 
@@ -48,6 +51,7 @@ menu "Example configuration"
         default 7 if IDF_TARGET_ESP32C2 || IDF_TARGET_ESP32C3 || IDF_TARGET_ESP32C5 || IDF_TARGET_ESP32C6 || IDF_TARGET_ESP32C61
         default 7 if IDF_TARGET_ESP32H2
         default 7 if IDF_TARGET_ESP32P4
+        default 5
         help
             GPIO number of CS
 endmenu
